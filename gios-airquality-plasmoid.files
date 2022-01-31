@@ -1,0 +1,16 @@
+CMakeLists.txt
+package/contents/config/config.qml
+package/contents/config/main.xml
+package/contents/images/icon-dark/update-high.svg
+package/contents/images/icon-dark/update-low.svg
+package/contents/images/icon-dark/update-medium.svg
+package/contents/images/icon-dark/update-none.svg
+package/contents/images/icon-light/update-high.svg
+package/contents/images/icon-light/update-low.svg
+package/contents/images/icon-light/update-medium.svg
+package/contents/images/icon-light/update-none.svg
+package/contents/ui/configGeneral.qml
+package/contents/ui/logic.js
+package/contents/ui/main.qml
+package/contents/ui/normsData.json
+package/metadata.json

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+    <kcfgfile name=""/>
+
+    <group name="General">
+        <entry name="giosServerAdress" type="String">
+            <default>http://api.gios.gov.pl/pjp-api/rest</default>
+        </entry>
+        <entry name="updateInterval" type="Int">
+            <label>Interval between data update in seconds.</label>
+            <default>3600</default>
+        </entry>
+        <entry name="plasmoidLabel" type="String">
+            <label>User label.</label>
+            <default>Warszawa-Komunikacyjna</default>
+        </entry>
+    </group>
+    <group name="DataConfig">
+        <entry name="stationId" type="String">
+            <label>Used station ID. Defaults to Warszawa-Komunikacyjna.</label>
+            <default>530</default>
+        </entry>
+        <entry name="sensorsIdList" type="IntList">
+            <label>List of checked contaminations IDs. Possible values dependent on station. Defaults to all avaliable at Warszawa-Komunikacyjna.</label>
+            <default></default>
+        </entry>
+        <entry name="airQualityIndexCheck" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="normalRangesUsed" type="String">
+            <label>Allowed air contamination ranges used. Possible values: [null] pl eu.</label>
+            <default>pl</default>
+        </entry>
+    </group>
+    <group name="PresentationConfig">
+        <entry name="useColors" type="Bool">
+            <label>Changing plasmoid background color dependent on data level.</label>
+            <default>true</default>
+        </entry>
+        <entry name="colorGood" type="Color">
+            <default>#336699</default>
+        </entry>
+        <entry name="colorOkay" type="Color">
+            <default>#336699</default>
+        </entry>
+        <entry name="colorWarning" type="Color">
+            <default>#336699</default>
+        </entry>
+        <entry name="colorBad" type="Color">
+            <default>#336699</default>
+        </entry>
+    </group>
+</kcfg>

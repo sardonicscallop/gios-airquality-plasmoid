@@ -1,0 +1,24 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "kkolodziejak@o2.pl",
+                "Name": "Karol Kołodziejak"
+            }
+        ],
+        "Category": "Environment and Weather",
+        "Description": "A widget presenting current status of air quality. Uses data from GIOŚ, so relevant only for residents of Poland.",
+        "Icon": "weather-fog",
+        "Id": "com.github.sardonicscallop.gios-airquality-plasmoid",
+        "Name": "GIOŚ Air Quality",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "1.0",
+        "License": "GPL-2.0+",
+        "Website": "https://github.com/sardonicscallop/gios-airquality-plasmoid"
+    },
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml",
+    "X-Plasma-NotificationArea": "true"
+}
